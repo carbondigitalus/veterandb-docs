@@ -6,20 +6,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'VeteranDB',
+  tagline: 'The last LZ you will ever need.',
+  favicon: 'img/logo/icon-dark-bg.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.veterandb.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'carbondigitalus', // Usually your GitHub org/user name.
+  projectName: 'veterandb-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -41,15 +41,13 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/carbondigitalus/veterandb-docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/carbondigitalus/veterandb-docs/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,10 +62,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'VeteranDB',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Veteran DB Logo',
+          src: 'img/logo/icon-light-bg.png',
         },
         items: [
           {
@@ -76,9 +74,9 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/carbondigitalus/veterandb-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -88,10 +86,27 @@ const config = {
         style: 'dark',
         links: [
           {
+            title: 'Products',
+            items: [
+              {
+                label: 'Website',
+                href: 'https://veterandb.com',
+              },
+              {
+                label: 'Portal',
+                href: 'https://portal.veterandb.com',
+              },
+            ],
+          },
+          {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Website',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Portal',
                 to: '/docs/intro',
               },
             ],
@@ -127,7 +142,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright &copy; ${new Date().getFullYear()} &middot; VeteranDB Docs &middot; All Rights Reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
