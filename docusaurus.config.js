@@ -68,6 +68,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
+          { to: '/api/intro', label: 'API', position: 'left' },
           {
             href: 'https://github.com/carbondigitalus/veterandb-docs',
             label: 'GitHub',
