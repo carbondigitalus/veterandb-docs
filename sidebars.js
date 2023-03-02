@@ -7,6 +7,18 @@ const sidebars = {
   // But you can create a sidebar manually
   /*
   tutorialSidebar: [
+  api: [
+    'intro',
+    {
+      type: 'category',
+      label: 'Getting Started',
+      link: {
+        type: 'generated-index',
+      },
+      collapsed: false,
+      items: ['tutorial-basics/create-a-page'],
+    },
+  ],
     'intro',
     'hello',
     {
