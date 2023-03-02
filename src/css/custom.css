@@ -28,3 +28,25 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.greenDarkBg {
+  background-color: #556b2f;
+}
+.greenDarkestBg {
+  background-color: #36421b;
+}
+.sandLightBg {
+  background-color: #ece2c6;
+}
+html[data-theme='light'] .navbar {
+  background-color: #ece2c6;
+}
+html[data-theme='light'] .main-wrapper {
+  background-color: #ece2c6;
+}
+html[data-theme='dark'] .navbar {
+  background-color: #36421b;
+}
+html[data-theme='dark'] .main-wrapper {
+  background-color: #36421b;
+}
