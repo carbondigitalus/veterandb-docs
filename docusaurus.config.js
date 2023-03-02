@@ -37,6 +37,7 @@ const config = {
       '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        debug: true, // This will enable the plugin in production
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
