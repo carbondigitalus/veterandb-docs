@@ -1,7 +1,7 @@
 {
   "name": "veterandb-docs",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "docusaurus": "docusaurus",
     "start:dev": "NODE_ENV=development docusaurus start",
