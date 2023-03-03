@@ -47,7 +47,7 @@ const config = {
           editUrl: 'https://github.com/carbondigitalus/veterandb-docs/edit/main/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/style.scss'),
         },
       }),
     ],
