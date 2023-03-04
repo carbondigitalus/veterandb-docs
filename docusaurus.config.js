@@ -53,6 +53,8 @@ const config = {
     ],
   ],
   plugins: [
+    // object is required, even if it's empty
+    ['docusaurus-plugin-sass', {}],
     [
       '@docusaurus/plugin-content-docs',
       {
