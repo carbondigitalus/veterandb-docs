@@ -193,7 +193,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright &copy; ${new Date().getFullYear()} &middot; VeteranDB Docs &middot; All Rights Reserved.`,
+        copyright: `Copyright &copy; 2020-${new Date().getFullYear()} &middot; VeteranDB Docs &middot; All Rights Reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
