@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'VeteranDB',
   tagline: 'The last LZ you will ever need.',
+  title: 'Veteran Database',
   favicon: 'img/logo/icon-dark-bg.png',
 
   // Set the production url of your site here
