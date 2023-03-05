@@ -170,8 +170,8 @@ const config = {
                 href: 'https://www.facebook.com/veterandb',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/veterandatabase/',
               },
               {
                 label: 'Twitter',
