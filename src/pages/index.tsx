@@ -30,7 +30,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Docs Home`}
-      description='Description will go into a meta tag in <head />'
+      description={siteConfig.tagline}
     >
       <HomepageHeader />
       <main></main>
