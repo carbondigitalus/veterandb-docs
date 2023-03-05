@@ -21,6 +21,7 @@ function HomepageHeader() {
             Get Started
           </Link>
         </div> */}
+        <h2>Content Coming Soon!</h2>
       </div>
     </header>
   );
