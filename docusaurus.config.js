@@ -184,7 +184,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                href: 'https://veterandb.com/blog/',
               },
               {
                 label: 'GitHub',
