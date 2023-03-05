@@ -40,13 +40,15 @@
 }
 html[data-theme='light'] {
   .navbar,
-  .main-wrapper {
+  .main-wrapper,
+  .hero {
     background-color: #ece2c6;
   }
 }
 html[data-theme='dark'] {
   .navbar,
-  .main-wrapper {
+  .main-wrapper,
+  .hero {
     background-color: #36421b;
   }
 }
