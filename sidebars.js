@@ -5,7 +5,7 @@ const sidebars = {
   api: ['intro'],
   docs: ['intro'],
   mobile: ['intro'],
-  portal: ['intro', 'images'],
+  portal: ['intro', 'uploads/images'],
   website: ['intro'],
 };
 
