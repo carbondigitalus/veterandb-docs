@@ -5,7 +5,14 @@ const sidebars = {
   api: ['intro'],
   docs: ['intro'],
   mobile: ['intro'],
-  portal: ['intro', 'uploads/images'],
+  portal: [
+    'intro',
+    {
+      type: 'category',
+      label: 'Uploads',
+      items: ['uploads/images'],
+    },
+  ],
   website: ['intro'],
 };
 
