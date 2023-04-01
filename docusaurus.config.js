@@ -55,54 +55,6 @@ const config = {
   plugins: [
     // object is required, even if it's empty
     ['docusaurus-plugin-sass', {}],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'api',
-        path: 'api',
-        routeBasePath: 'api',
-        sidebarPath: require.resolve('./sidebars.js'),
-        // Please change this to your repo.
-        // Remove this to remove the "edit this page" links.
-        editUrl: 'https://github.com/carbondigitalus/veterandb-docs/edit/main/',
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'mobile',
-        path: 'mobile',
-        routeBasePath: 'mobile',
-        sidebarPath: require.resolve('./sidebars.js'),
-        // Please change this to your repo.
-        // Remove this to remove the "edit this page" links.
-        editUrl: 'https://github.com/carbondigitalus/veterandb-docs/edit/main/',
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'portal',
-        path: 'portal',
-        routeBasePath: 'portal',
-        sidebarPath: require.resolve('./sidebars.js'),
-        // Please change this to your repo.
-        // Remove this to remove the "edit this page" links.
-        editUrl: 'https://github.com/carbondigitalus/veterandb-docs/edit/main/',
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'website',
-        path: 'website',
-        routeBasePath: 'website',
-        sidebarPath: require.resolve('./sidebars.js'),
-        // Please change this to your repo.
-        // Remove this to remove the "edit this page" links.
-        editUrl: 'https://github.com/carbondigitalus/veterandb-docs/edit/main/',
-      },
-    ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -122,10 +74,6 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          { to: '/api/intro', label: 'API', position: 'left' },
-          { to: '/portal/intro', label: 'Portal', position: 'left' },
-          { to: '/mobile/intro', label: 'Mobile', position: 'left' },
-          { to: '/website/intro', label: 'Website', position: 'left' },
           {
             href: 'https://github.com/carbondigitalus/veterandb-docs',
             label: 'GitHub',
