@@ -12,15 +12,15 @@ The logo is used in content modules.
 
 ### Resize Details
 
-Width: 800px x 800px
+Width: 800px x 800px<br/>
 Aspect Ratio: 1:1
 
 ### Modules Referenced
 
-The following modules utilize the logo:
--Business
--Directory
--NonProfit
+The following modules utilize the logo:<br/>
+-Business<br/>
+-Directory<br/>
+-NonProfit<br/>
 -Podcast
 
 ## Cover Images
@@ -29,13 +29,13 @@ These images are used as a "featured image" (ex. blog post), or like social medi
 
 ### Resize Details
 
-Width: 1200px x 628px
+Width: 1200px x 628px<br/>
 Aspect Ratio: 1.91:1 (almost a 2:1)
 
 ### Modules Referenced
 
-The following modules utilize the logo:
--Business
--Directory
--NonProfit
+The following modules utilize the logo:<br/>
+-Business<br/>
+-Directory<br/>
+-NonProfit<br/>
 -Podcast
