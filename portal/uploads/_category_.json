@@ -1,0 +1,8 @@
+{
+  "label": "File Uploads",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "This section will cover all of the requirements for file uploads."
+  }
+}
