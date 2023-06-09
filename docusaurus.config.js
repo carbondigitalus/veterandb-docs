@@ -93,7 +93,7 @@ const config = {
               },
               {
                 label: 'Portal',
-                href: 'https://portal.veterandb.com',
+                href: 'https://app.veterandb.com',
               },
             ],
           },
@@ -106,7 +106,7 @@ const config = {
               },
               {
                 label: 'Portal',
-                to: '/docs/intro',
+                href: 'https://app.veterandb.com',
               },
             ],
           },
