@@ -59,6 +59,24 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        { name: 'og:title', content: 'Veteran Database' },
+        { name: 'og:type', content: 'website' },
+        { name: 'og:url', content: 'https://docs.veterandb.com/' },
+        { name: 'og:image', content: 'https://uploads.veterandb.com/military/logo-green.png' },
+        { name: 'og:site_name', content: 'Veteran Database' },
+        {
+          name: 'og:description',
+          content: 'The official docs for our VeteranDB platform, including all products in our ecosystem.',
+        },
+        { name: 'og:email', content: 'hello@veterandb.com' },
+        { name: 'og:locality', content: 'Charlotte' },
+        { name: 'og:region', content: 'NC' },
+        { name: 'og:country-name', content: 'USA' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:site', content: '@VeteranDatabase' },
+        { name: 'twitter:creator', content: '@VeteranDatabase' },
+      ],
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
