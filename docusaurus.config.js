@@ -103,15 +103,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Products',
+            title: 'Stores',
             items: [
               {
-                label: 'Website',
-                href: 'https://veterandb.com',
+                label: 'Exchange',
+                href: 'https://exchange.veterandb.com',
               },
               {
-                label: 'Portal',
-                href: 'https://app.veterandb.com',
+                label: 'Gear Store',
+                href: 'https://gear.veterandb.com',
               },
             ],
           },
@@ -129,19 +129,31 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Social',
             items: [
               {
                 label: 'Facebook',
                 href: 'https://www.facebook.com/veterandb',
               },
               {
+                label: 'Facebook Group',
+                href: 'https://www.facebook.com/groups/veterandbcommunity',
+              },
+              {
                 label: 'Instagram',
                 href: 'https://www.instagram.com/veterandatabase/',
               },
               {
+                label: 'Truth',
+                href: 'https://truthsocial.com/@VeteranDatabase',
+              },
+              {
                 label: 'Twitter',
                 href: 'https://twitter.com/VeteranDatabase',
+              },
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/@VeteranDB',
               },
             ],
           },
