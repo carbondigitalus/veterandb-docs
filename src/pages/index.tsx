@@ -1,15 +1,16 @@
-import React from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
+// NPM Modules
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import clsx from 'clsx';
+import React from 'react';
 
-import styles from './index.module.scss';
+// Custom Modules
+import './index.module.scss';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero', styles.heroBanner)}>
+    <header className={clsx('hero')}>
       <div className='container'>
         <h1 className='hero__title'>{siteConfig.title}</h1>
         <p className='hero__subtitle'>{siteConfig.tagline}</p>
