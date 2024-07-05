@@ -50,13 +50,13 @@ For the business contact page, you can edit your:
 
 ### Cover Image Page
 
-For the business cover image page, you can upload a cover image. Make sure to check the [file uploads section](/docs/category/file-uploads) for image specifications.
+For the business cover image page, you can upload a cover image. Make sure to check the [file uploads section](/docs/category/uploads) for image specifications.
 
 ![Business Single Cover Image](./img/business-single-cover-image.png)
 
 ### Logo Page
 
-For the business logo page, you can upload a logo. Make sure to check the [file uploads section](/docs/category/file-uploads) for image specifications.
+For the business logo page, you can upload a logo. Make sure to check the [file uploads section](/docs/category/uploads) for image specifications.
 
 ![Business Single Logo](./img/business-single-logo.png)
 
